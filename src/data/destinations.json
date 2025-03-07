@@ -1,0 +1,387 @@
+[
+  {
+    "id": 1,
+    "name": "Paris",
+    "coordinates": {
+      "latitude": 48.8566,
+      "longitude": 2.3522
+    },
+    "country": "France",
+    "continent": "Europe",
+    "economic_level": "expensive"
+  },
+  {
+    "id": 2,
+    "name": "Bangkok",
+    "coordinates": {
+      "latitude": 13.7563,
+      "longitude": 100.5018
+    },
+    "country": "Thailand",
+    "continent": "Asia",
+    "economic_level": "cheap"
+  },
+  {
+    "id": 3,
+    "name": "New York",
+    "coordinates": {
+      "latitude": 40.7128,
+      "longitude": -74.006
+    },
+    "country": "United States",
+    "continent": "North America",
+    "economic_level": "expensive"
+  },
+  {
+    "id": 4,
+    "name": "Rome",
+    "coordinates": {
+      "latitude": 41.9028,
+      "longitude": 12.4964
+    },
+    "country": "Italy",
+    "continent": "Europe",
+    "economic_level": "moderate"
+  },
+  {
+    "id": 5,
+    "name": "Phuket",
+    "coordinates": {
+      "latitude": 7.8804,
+      "longitude": 98.3923
+    },
+    "country": "Thailand",
+    "continent": "Asia",
+    "economic_level": "moderate"
+  },
+  {
+    "id": 6,
+    "name": "Barcelona",
+    "coordinates": {
+      "latitude": 41.3851,
+      "longitude": 2.1734
+    },
+    "country": "Spain",
+    "continent": "Europe",
+    "economic_level": "expensive"
+  },
+  {
+    "id": 7,
+    "name": "Tokyo",
+    "coordinates": {
+      "latitude": 35.6895,
+      "longitude": 139.6917
+    },
+    "country": "Japan",
+    "continent": "Asia",
+    "economic_level": "expensive"
+  },
+  {
+    "id": 8,
+    "name": "Sydney",
+    "coordinates": {
+      "latitude": -33.8688,
+      "longitude": 151.2093
+    },
+    "country": "Australia",
+    "continent": "Australia",
+    "economic_level": "moderate"
+  },
+  {
+    "id": 9,
+    "name": "Rio de Janeiro",
+    "coordinates": {
+      "latitude": -22.9068,
+      "longitude": -43.1729
+    },
+    "country": "Brazil",
+    "continent": "South America",
+    "economic_level": "moderate"
+  },
+  {
+    "id": 10,
+    "name": "Dubai",
+    "coordinates": {
+      "latitude": 25.276987,
+      "longitude": 55.296249
+    },
+    "country": "United Arab Emirates",
+    "continent": "Asia",
+    "economic_level": "expensive"
+  },
+  {
+    "id": 11,
+    "name": "Cape Town",
+    "coordinates": {
+      "latitude": -33.9249,
+      "longitude": 18.4241
+    },
+    "country": "South Africa",
+    "continent": "Africa",
+    "economic_level": "moderate"
+  },
+  {
+    "id": 12,
+    "name": "Bali",
+    "coordinates": {
+      "latitude": -8.409518,
+      "longitude": 115.188919
+    },
+    "country": "Indonesia",
+    "continent": "Asia",
+    "economic_level": "moderate"
+  },
+  {
+    "id": 13,
+    "name": "Venice",
+    "coordinates": {
+      "latitude": 45.4408,
+      "longitude": 12.3155
+    },
+    "country": "Italy",
+    "continent": "Europe",
+    "economic_level": "expensive"
+  },
+  {
+    "id": 14,
+    "name": "Amsterdam",
+    "coordinates": {
+      "latitude": 52.3676,
+      "longitude": 4.9041
+    },
+    "country": "Netherlands",
+    "continent": "Europe",
+    "economic_level": "expensive"
+  },
+  {
+    "id": 15,
+    "name": "San Francisco",
+    "coordinates": {
+      "latitude": 37.7749,
+      "longitude": -122.4194
+    },
+    "country": "United States",
+    "continent": "North America",
+    "economic_level": "expensive"
+  },
+  {
+    "id": 16,
+    "name": "Istanbul",
+    "coordinates": {
+      "latitude": 41.0082,
+      "longitude": 28.9784
+    },
+    "country": "Turkey",
+    "continent": "Europe",
+    "economic_level": "moderate"
+  },
+  {
+    "id": 17,
+    "name": "Cancun",
+    "coordinates": {
+      "latitude": 21.1619,
+      "longitude": -86.8515
+    },
+    "country": "Mexico",
+    "continent": "North America",
+    "economic_level": "moderate"
+  },
+  {
+    "id": 18,
+    "name": "Prague",
+    "coordinates": {
+      "latitude": 50.0755,
+      "longitude": 14.4378
+    },
+    "country": "Czech Republic",
+    "continent": "Europe",
+    "economic_level": "moderate"
+  },
+  {
+    "id": 19,
+    "name": "Athens",
+    "coordinates": {
+      "latitude": 37.9838,
+      "longitude": 23.7275
+    },
+    "country": "Greece",
+    "continent": "Europe",
+    "economic_level": "moderate"
+  },
+  {
+    "id": 20,
+    "name": "Florence",
+    "coordinates": {
+      "latitude": 43.7696,
+      "longitude": 11.2558
+    },
+    "country": "Italy",
+    "continent": "Europe",
+    "economic_level": "expensive"
+  },
+  {
+    "id": 21,
+    "name": "Las Vegas",
+    "coordinates": {
+      "latitude": 36.1699,
+      "longitude": -115.1398
+    },
+    "country": "United States",
+    "continent": "North America",
+    "economic_level": "expensive"
+  },
+  {
+    "id": 22,
+    "name": "Dublin",
+    "coordinates": {
+      "latitude": 53.3498,
+      "longitude": -6.2603
+    },
+    "country": "Ireland",
+    "continent": "Europe",
+    "economic_level": "moderate"
+  },
+  {
+    "id": 23,
+    "name": "Kyoto",
+    "coordinates": {
+      "latitude": 35.0116,
+      "longitude": 135.7681
+    },
+    "country": "Japan",
+    "continent": "Asia",
+    "economic_level": "expensive"
+  },
+  {
+    "id": 24,
+    "name": "Montreal",
+    "coordinates": {
+      "latitude": 45.5017,
+      "longitude": -73.5673
+    },
+    "country": "Canada",
+    "continent": "North America",
+    "economic_level": "moderate"
+  },
+  {
+    "id": 25,
+    "name": "Copenhagen",
+    "coordinates": {
+      "latitude": 55.6761,
+      "longitude": 12.5683
+    },
+    "country": "Denmark",
+    "continent": "Europe",
+    "economic_level": "expensive"
+  },
+  {
+    "id": 26,
+    "name": "Budapest",
+    "coordinates": {
+      "latitude": 47.4979,
+      "longitude": 19.0402
+    },
+    "country": "Hungary",
+    "continent": "Europe",
+    "economic_level": "cheap"
+  },
+  {
+    "id": 27,
+    "name": "Krakow",
+    "coordinates": {
+      "latitude": 50.0647,
+      "longitude": 19.945
+    },
+    "country": "Poland",
+    "continent": "Europe",
+    "economic_level": "cheap"
+  },
+  {
+    "id": 28,
+    "name": "Hanoi",
+    "coordinates": {
+      "latitude": 21.0285,
+      "longitude": 105.8542
+    },
+    "country": "Vietnam",
+    "continent": "Asia",
+    "economic_level": "cheap"
+  },
+  {
+    "id": 29,
+    "name": "Siem Reap",
+    "coordinates": {
+      "latitude": 13.3618,
+      "longitude": 103.8562
+    },
+    "country": "Cambodia",
+    "continent": "Asia",
+    "economic_level": "cheap"
+  },
+  {
+    "id": 30,
+    "name": "Kuala Lumpur",
+    "coordinates": {
+      "latitude": 3.139,
+      "longitude": 101.6869
+    },
+    "country": "Malaysia",
+    "continent": "Asia",
+    "economic_level": "cheap"
+  },
+  {
+    "id": 31,
+    "name": "Lisbon",
+    "coordinates": {
+      "latitude": 38.7223,
+      "longitude": -9.1393
+    },
+    "country": "Portugal",
+    "continent": "Europe",
+    "economic_level": "moderate"
+  },
+  {
+    "id": 32,
+    "name": "Marrakech",
+    "coordinates": {
+      "latitude": 31.6295,
+      "longitude": -7.9811
+    },
+    "country": "Morocco",
+    "continent": "Africa",
+    "economic_level": "cheap"
+  },
+  {
+    "id": 33,
+    "name": "Ho Chi Minh City",
+    "coordinates": {
+      "latitude": 10.8231,
+      "longitude": 106.6297
+    },
+    "country": "Vietnam",
+    "continent": "Asia",
+    "economic_level": "cheap"
+  },
+  {
+    "id": 34,
+    "name": "Manila",
+    "coordinates": {
+      "latitude": 14.5995,
+      "longitude": 120.9842
+    },
+    "country": "Philippines",
+    "continent": "Asia",
+    "economic_level": "cheap"
+  },
+  {
+    "id": 35,
+    "name": "Sofia",
+    "coordinates": {
+      "latitude": 42.6977,
+      "longitude": 23.3219
+    },
+    "country": "Bulgaria",
+    "continent": "Europe",
+    "economic_level": "cheap"
+  }
+]
