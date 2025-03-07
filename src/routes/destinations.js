@@ -1,23 +1,21 @@
-let { Router } = require('express');
-let router = Router();
+import { Router } from 'express';
+import destinations from '../data/destinations.json' assert { type: 'json' }; // Cargar JSON correctamente en ES Modules
 
-const DESTINATIONS = require('../data/destinations');
+const router = Router();
 
-router.get('/', (req,res)=>{
-    res.json(DESTINATIONS);
+router.get('/', (req, res) => {
+    res.json(destinations);
 });
 
-router.get('/:id', (req,res)=>{
-    let id = req.params.id;
-    let destination = DESTINATIONSS.filter(d=>d.id==id)[0];
+router.get('/:id', (req, res) => {
+    const id = req.params.id;
+    const destination = destinations.find(d => d.id == id);
+
     if (destination) {
-        res.status(200).json(destination);    
+        res.status(200).json(destination);
     } else {
-        res.status(404).json({
-            error: "Not found the destination with id="+id
-        });
+        res.status(404).json({ error: `Not found the destination with id=${id}` });
     }
 });
 
-
-module.exports = router;
+export default router;
