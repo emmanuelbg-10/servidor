@@ -2,6 +2,7 @@ const express = require('express');
 const morgan = require('morgan');
 const cors = require('cors');
 const path = require('path');
+const destinationsRouter = require('./routes/destinations');
 
 const app = express();
 
@@ -12,7 +13,9 @@ app.use(express.json());
 app.use(express.static(path.join(__dirname, '../public')));
 
 // Rutas
-app.use('/api/destinations', require('./routes/destinations'));
+app.use('/api/destinations', destinationsRouter);
 
-// Exportar la app para que Vercel la maneje correctamente
-module.exports = app;
+const PORT = process.env.PORT || 3000;
+app.listen(PORT, () => {
+    console.log(`Servidor corriendo en puerto ${PORT}`);
+});
